@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "Cibbe"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Cibbe-90f900e5-4515-429a-942b-856ec0c46bd1;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
