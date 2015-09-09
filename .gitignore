@@ -78,3 +78,5 @@ node_modules
 /PublishScripts/AzureVMPublishModule.psm1
 /PublishScripts/Configurations/CibraryTest-WAWS-dev.json
 /PublishScripts/Publish-WebApplicationVM.ps1
+.vs
+/src/Cibbe/project.lock.json
