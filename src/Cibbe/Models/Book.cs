@@ -13,6 +13,12 @@ namespace Cibbe.Models
 
         public string Title { get; set; }
 
+        public int Year { get; set; }
+
+        public DateTime DateBought { get; set; }
+
+        public int NumberOfCopies { get; set; }
+
         public virtual List<Loan> Loans { get; set; }
     }
 }
