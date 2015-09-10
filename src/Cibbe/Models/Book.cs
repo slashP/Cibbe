@@ -19,6 +19,6 @@ namespace Cibbe.Models
 
         public int NumberOfCopies { get; set; }
 
-        public virtual List<Loan> Loans { get; set; }
+        public virtual List<Loan> Loans { get; set; } = new List<Loan>();
     }
 }

@@ -90,6 +90,7 @@ namespace Cibbe
         // Configure is called after ConfigureServices is called.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.ApplicationServices.GetService<ApplicationDbContext>().Database.Migrate();
             loggerFactory.MinimumLevel = LogLevel.Information;
             loggerFactory.AddConsole();
 
